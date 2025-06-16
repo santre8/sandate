@@ -7,7 +7,7 @@ import type {
 import { LinkPreset } from "./types/config";
 
 export const siteConfig: SiteConfig = {
-	title: "Carmen Sandate",
+	title: "Home",
 	subtitle: "Data Analytics | Optimization | Machine Learning",
 	lang: "en", // 'en', 'zh_CN', 'zh_TW', 'ja', 'ko', 'es', 'th'
 	themeColor: {
