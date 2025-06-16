@@ -1,0 +1,39 @@
+---
+const experience = [
+	{
+		year: "2024",
+		title: "Data Analyst Student at Langara College",
+		description:
+			"Pursuing a Post-Degree Diploma in Data Analytics. Projects include machine learning, data visualization, and optimization modeling using Python, R, and Spark.",
+	},
+	{
+		year: "2014–2024",
+		title: "Planning Specialist – Fuel Supply at PEMEX",
+		description:
+			"Led pricing strategy and logistics optimization for Mexico’s national fuel supply chain. Built models to reduce costs in the transport of gasoline and diesel.",
+	},
+	{
+		year: "2013",
+		title: "Validation Engineer at Colgate-Palmolive",
+		description:
+			"Coordinated water system validation and validated new formulations in the home care division.",
+	},
+	{
+		year: "2009",
+		title: "Training Engineer at BASF Agri Production",
+		description:
+			"Participated in process improvements and gained hands-on experience in chemical manufacturing.",
+	},
+];
+---
+
+<ul class="border-l-2 border-sky-500 pl-4 mt-8">
+  {experience.map((job) => (
+    <li class="mb-10 ml-4 relative">
+      <div class="absolute w-4 h-4 bg-sky-500 rounded-full -left-2.5 mt-1.5 border border-white"></div>
+      <time class="mb-1 text-sm font-normal leading-none text-gray-400">{job.year}</time>
+      <h3 class="text-lg font-semibold text-white">{job.title}</h3>
+      <p class="text-base font-normal text-gray-300">{job.description}</p>
+    </li>
+  ))}
+</ul>

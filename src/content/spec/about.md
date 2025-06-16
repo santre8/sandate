@@ -31,3 +31,17 @@ Currently, I'm pursuing a Post-Degree Diploma in **Data Analytics** at Langara C
 
 I’m always open to projects, job opportunities, or coffee-fueled data chats!  
 Find me on [LinkedIn](https://www.linkedin.com/in/carmen-sandate-84b7919a) or check out my work on [GitHub](https://github.com/santre8).
+
+---
+import ExperienceTimeline from "../components/ExperienceTimeline.astro";
+---
+
+<MainGridLayout title="About" description="Learn more about me">
+  <div class="prose prose-invert">
+    <h1>About Me</h1>
+    <p>Hi! I'm Carmen Sandate...</p>
+
+    <h2>Experience</h2>
+    <ExperienceTimeline />
+  </div>
+</MainGridLayout>
