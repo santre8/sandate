@@ -7,7 +7,7 @@ import type {
 import { LinkPreset } from "./types/config";
 
 export const siteConfig: SiteConfig = {
-	title: "Home",
+	title: "Sandate",
 	subtitle: "Data Analytics | Optimization | Machine Learning",
 	lang: "en", // 'en', 'zh_CN', 'zh_TW', 'ja', 'ko', 'es', 'th'
 	themeColor: {
@@ -40,13 +40,18 @@ export const siteConfig: SiteConfig = {
 
 export const navBarConfig: NavBarConfig = {
 	links: [
-		LinkPreset.Home,
-		LinkPreset.Archive,
-		LinkPreset.About,
+		{ name: "Home", url: "/" },
+		{ name: "Projects", url: "/archive" },
+		{ name: "About", url: "/about" },
+		{
+			name: "Resume",
+			url: "/Resume_MCST.pdf", // Asegúrate de subirlo a /public/
+			external: false,
+		},
 		{
 			name: "GitHub",
-			url: "https://github.com/santre8", // Internal links should not include the base path, as it is automatically added
-			external: true, // Show an external link icon and will open in a new tab
+			url: "https://github.com/saicaca", // O tu GitHub correcto
+			external: true,
 		},
 	],
 };
