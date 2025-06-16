@@ -25,3 +25,18 @@ const { Content } = await render(aboutPost);
         </div>
     </div>
 </MainGridLayout>
+
+
+---
+import ExperienceTimeline from "../components/ExperienceTimeline.astro";
+---
+
+<MainGridLayout title="About" description="Learn more about me">
+  <div class="prose prose-invert">
+    <h1>About Me</h1>
+    <p>Hi! I'm Carmen Sandate...</p>
+
+    <h2>Experience</h2>
+    <ExperienceTimeline />
+  </div>
+</MainGridLayout>
