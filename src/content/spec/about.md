@@ -31,5 +31,3 @@ Currently, I'm pursuing a Post-Degree Diploma in **Data Analytics** at Langara C
 
 I’m always open to projects, job opportunities, or coffee-fueled data chats!  
 Find me on [LinkedIn](https://www.linkedin.com/in/carmen-sandate-84b7919a) or check out my work on [GitHub](https://github.com/santre8).
-
-
