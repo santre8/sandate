@@ -42,7 +42,7 @@ export const navBarConfig: NavBarConfig = {
 	links: [
 		{ name: "Home", url: "/" },
 		{ name: "Projects", url: "/archive" },
-		{ name: "About", url: "/about" },
+		{ name: "About Me", url: "/about" },
 		{
 			name: "Resume",
 			url: "/Resume_MCST.pdf", // Asegúrate de subirlo a /public/
