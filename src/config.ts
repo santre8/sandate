@@ -41,8 +41,8 @@ export const siteConfig: SiteConfig = {
 export const navBarConfig: NavBarConfig = {
 	links: [
 		{ name: "Home", url: "/" },
-		{ name: "About Me", url: "/about" },
 		{ name: "Projects", url: "/archive" },
+		{ name: "About Me", url: "/about" },
 		{
 			name: "Resume",
 			url: "/Resume_MCST.pdf", // Asegúrate de subirlo a /public/
