@@ -1,12 +1,10 @@
 ---
-import Layout from "../layouts/Layout.astro";
-
 import { getEntry, render } from "astro:content";
 import Markdown from "@components/misc/Markdown.astro";
 import ExperienceTimeline from "../components/ExperienceTimeline.astro";
 import MainGridLayout from "../layouts/MainGridLayout.astro";
 
-const aboutPost = await getEntry("spec", "about");
+const aboutPost = await getEntry("spec", "education");
 
 if (!aboutPost) {
 	throw new Error("About page content not found");
@@ -15,21 +13,13 @@ if (!aboutPost) {
 const { Content } = await render(aboutPost);
 ---
 
-<Layout title="Education">
-  <h1>Education</h1>
+<MainGridLayout title="Education" description="Learn more about me">
+  <div class="prose prose-invert">
+    <Markdown class="mt-2">
+      <Content />
+    </Markdown>
 
-  <ul>
-    <li>
-      <strong>Langara College</strong> – Post-Degree Diploma in Data Analytics (Expected 2026)
-    </li>
-    <li>
-      <strong>Instituto Tecnológico de Celaya</strong> – MSc in Chemical Engineering (2013)
-    </li>
-    <li>
-      <strong>Universidad Autónoma de San Luis Potosí</strong> – BSc in Chemical Engineering (2010)
-    </li>
-    <li>
-      <strong>INSA Rouen, France</strong> – Student Exchange in Chemical Process Engineering
-    </li>
-  </ul>
-</Layout>
+    <h2 class="mt-10">Experience</h2>
+    <ExperienceTimeline />
+  </div>
+</MainGridLayout>
