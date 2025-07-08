@@ -1,0 +1,42 @@
+---
+const education = [
+	{
+		year: "December 2025 (expected)",
+		title: "Langara College – Post-Degree Diploma in Data Analytics",
+		description:
+			"Focused on machine learning, data visualization, and big data tools like Python, R, and Spark.",
+	},
+	{
+		year: "2013",
+		title: "Instituto Tecnológico de Celaya – MSc in Chemical Engineering",
+		description:
+			"Specialized in optimization modeling and energy efficiency in industrial processes.",
+	},
+	{
+		year: "2010",
+		title:
+			"Universidad Autónoma de San Luis Potosí – BSc in Chemical Engineering",
+		description:
+			"Completed professional thesis and participated in industry training programs.",
+	},
+	{
+		year: "2009",
+		title: "INSA Rouen (France) – Student Exchange Program",
+		description:
+			"Studied chemical process engineering as part of an academic exchange.",
+	},
+];
+---
+
+
+<ul class="border-l-2 border-purple-500 pl-4 mt-8">
+    {education.map((item) => (
+      <li class="mb-10 pl-6 relative">
+        <div class="absolute left-0 top-1.5 w-4 h-4 bg-purple-500 rounded-full border border-white"></div>
+        <time class="ml-6 text-sm font-normal leading-none text-gray-400">{item.year}</time>
+        <h3 class="text-lg font-semibold text-white">{item.title}</h3>
+        <p class="text-base font-normal text-gray-300">{item.description}</p>
+      </li>
+    ))}
+</ul>
+
