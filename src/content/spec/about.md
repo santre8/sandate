@@ -23,7 +23,7 @@ Currently, I'm pursuing a Post-Degree Diploma in **Data Analytics** at Langara C
 
 - I've lived in **Mexico**, **France**, and **Canada**
 - Traveled to **32 countries** (and counting!)
-- Proud dog mom to **Floki**, my loyal American Bully 🐶 [Flokys_ds](https://www.instagram.com/flokys_ds?igsh=MWRwdnVwbGpwZHByYg%3D%3D&utm_source=qr)
+- Proud human of **Floki**, my loyal American Bully 🐶 [Flokys_ds](https://www.instagram.com/flokys_ds?igsh=MWRwdnVwbGpwZHByYg%3D%3D&utm_source=qr)
 
 ---
 

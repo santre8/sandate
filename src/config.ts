@@ -41,20 +41,20 @@ export const siteConfig: SiteConfig = {
 export const navBarConfig: NavBarConfig = {
 	links: [
 		{ name: "Home", url: "/" },
-		{ name: "About Me", url: "/about" },
-		{ name: "Work Experience", url: "/experience" },
-		{ name: "Education", url: "/education" },
-		{ name: "Projects", url: "/archive" },
-		{
-			name: "Resume",
-			url: "/Resume_MCST.pdf", // Asegúrate de subirlo a /public/
-			external: false,
-		},
-		{
-			name: "GitHub",
-			url: "https://github.com/saicaca", // O tu GitHub correcto
-			external: true,
-		},
+		{ name: "About Me", url: "/about/" },
+		{ name: "Work Experience", url: "/experience/" },
+		{ name: "Education", url: "/education/" },
+		{ name: "Projects", url: "/archive/" },
+		//{
+		//	name: "Resume",
+		//	url: "/Resume_MCST.pdf", // Asegúrate de subirlo a /public/
+		//	external: false,
+		//},
+		//{
+		//		name: "GitHub",
+		//		url: "https://github.com/saicaca", // O tu GitHub correcto
+		//		external: true,
+		//	},
 	],
 };
 

@@ -1,32 +1,25 @@
 ---
-import Layout from "../layouts/Layout.astro";
+import { getEntry, render } from "astro:content";
+import Markdown from "@components/misc/Markdown.astro";
+import ExperienceTimeline from "../components/ExperienceTimeline.astro";
+import MainGridLayout from "../layouts/MainGridLayout.astro";
+
+const aboutPost = await getEntry("spec", "experience");
+
+if (!aboutPost) {
+	throw new Error("About page content not found");
+}
+
+const { Content } = await render(aboutPost);
 ---
 
-<Layout title="Work Experience">
-  <h1>Work Experience</h1>
+<MainGridLayout title="Experience" description="Learn more about me">
+  <div class="prose prose-invert">
+    <Markdown class="mt-2">
+      <Content />
+    </Markdown>
 
-  <section>
-    <h2>Pemex – Fuel Supply Division (2014–2024)</h2>
-    <ul>
-      <li>Developed pricing models and economic evaluations for petroleum product markets.</li>
-      <li>Optimized intermediate flows between refineries.</li>
-      <li>Built and implemented optimization models to reduce gasoline and diesel transportation costs nationwide.</li>
-      <li>Created economic analysis tools for pipeline transportation systems.</li>
-    </ul>
-  </section>
-
-  <section>
-    <h2>Colgate-Palmolive – Validation Engineer (2013)</h2>
-    <ul>
-      <li>Validated water systems and base product processes for the Home Care Division.</li>
-      <li>Coordinated cross-functional validation activities for engineering projects.</li>
-    </ul>
-  </section>
-
-  <section>
-    <h2>BASF – Training Engineer (2009)</h2>
-    <ul>
-      <li>Participated in process improvement and technical training initiatives.</li>
-    </ul>
-  </section>
-</Layout>
+    <!--<h2 class="mt-10">Experience</h2>-->
+    <ExperienceTimeline />
+  </div>
+</MainGridLayout>
