@@ -13,9 +13,11 @@ if (!aboutPost) {
 const { Content } = await render(aboutPost);
 ---
 
+
+
 <MainGridLayout title="Experience" description="Learn more about me">
-  <div class="prose prose-invert">
-    <Markdown class="mt-2">
+  <div class="prose prose-invert mt-2">
+    <Markdown>
       <Content />
     </Markdown>
 
