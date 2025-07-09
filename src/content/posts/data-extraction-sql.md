@@ -4,7 +4,7 @@ published: 2025-05-18
 description: Cohort creation, SQL extraction, and ML modeling from ICU data using BigQuery and MIMIC-IV.
 #image: /cover-data-extraction.jpg
 tags: [MIMIC-IV, SQL, BigQuery, Healthcare, XGBoost]
-category: Data Projects
+category: BigQuery
 draft: false
 ---
 
