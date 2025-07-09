@@ -51,6 +51,6 @@ In this project, I extracted and engineered clinical data from the MIMIC-IV data
 &lt;h2&gt;Ethics&lt;/h2&gt;
 &lt;p&gt;All queries were executed within a secure BigQuery environment using de-identified patient data. CITI training on human subjects research was completed to ensure adherence to ethical data handling standards.&lt;/p&gt;
 &lt;hr /&gt;
-&lt;p&gt;🔗 &lt;a href=&quot;https://github.com/santre8/Data_Extraction_SQL&quot;&gt;See GitHub Repository&lt;/a&gt;&lt;br /&gt;
-📊 Created as part of my portfolio at Langara College.&lt;/p&gt;
+&lt;h2&gt;🔗 GitHub Repository&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/santre8/Data_Extraction_SQL&quot;&gt;See GitHub Repository&lt;/a&gt;&lt;/p&gt;
 </content:encoded></item></channel></rss>
