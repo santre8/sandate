@@ -20,7 +20,7 @@ draft: false
 In this project, I extracted and engineered clinical data from the MIMIC-IV database using SQL in BigQuery. The goal was to replicate the patient cohort and features described in Liu et al. (2022), focused on weaning outcomes in ICU patients with sepsis.
 
 
-This work bridges medical research with SQL logic and prepares the ground for machine learning classification tasks such as predicting weaning success.
+As a result, this work bridges medical research with SQL logic and lays the groundwork for machine learning classification tasks, such as predicting weaning success.
 
 ## My Role
 
