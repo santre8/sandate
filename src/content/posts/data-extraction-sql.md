@@ -51,5 +51,7 @@ All queries were executed within a secure BigQuery environment using de-identifi
 
 ---
 
-🔗 [See GitHub Repository](https://github.com/santre8/Data_Extraction_SQL)  
-📊 Created as part of my portfolio at Langara College.
+## 🔗 GitHub Repository
+
+[See GitHub Repository](https://github.com/santre8/Data_Extraction_SQL)  
+
