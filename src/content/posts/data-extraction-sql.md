@@ -24,7 +24,7 @@ As a result, this work bridges medical research with SQL logic and lays the grou
 
 ## My Role
 
-I defined inclusion/exclusion criteria, designed all queries, engineered 35+ clinical variables, and reflected on data ethics and bias. I also trained an XGBoost model to analyze the predictive power of the extracted dataset.
+Responsibilities included defining inclusion and exclusion criteria, designing SQL queries, and engineering over 35 clinical variables. Ethical and bias-related aspects of the data were also reviewed. Additionally, an XGBoost model was trained to evaluate the predictive power of the resulting dataset.
 
 </p>
 
@@ -39,7 +39,7 @@ I defined inclusion/exclusion criteria, designed all queries, engineered 35+ cli
 
 ## Model Summary
 
-I trained an XGBoost model using the resulting dataset:
+An XGBoost model was implemented on the extracted dataset, yielding the following insights:
 
 - **AUROC**: ~0.71
 - **Challenge**: strong class imbalance (83% class 1)
@@ -47,7 +47,7 @@ I trained an XGBoost model using the resulting dataset:
 
 ## Ethics
 
-Queries were executed in a secure BigQuery environment with de-identified data. I completed the CITI training to ensure ethical data handling throughout the process.
+All queries were executed within a secure BigQuery environment using de-identified patient data. CITI training on human subjects research was completed to ensure adherence to ethical data handling standards.
 
 ---
 
