@@ -6,7 +6,9 @@ title: "About"
 
 Hi! I'm **Carmen Sandate**, a passionate and adaptable Data Analyst with a strong foundation in **optimization modeling**, **data analytics**, and **process improvement**. With an MSc in Chemical Engineering and over a decade of experience in logistics and energy systems, I bring analytical thinking and real-world business insight to every dataset.
 
-Currently, I'm pursuing a Post-Degree Diploma in **Data Analytics** at Langara College in Vancouver, specializing in Python, SQL, R, and Apache Spark. My focus is on extracting value from data to drive smarter decisions, especially in logistics, supply chains, and social impact sectors.
+I recently completed a **Post-Degree Diploma in Data Analytics** at Langara College in Vancouver, where I strengthened my technical skills in **Python, SQL, R, Apache Spark, and data visualization**, and applied them to end-to-end analytical and engineering projects.
+
+I’m currently open to new opportunities as a Data Analyst, where I can apply my technical skills, analytical mindset, and industry experience to support impactful, data-driven decision-making.
 
 ---
 
