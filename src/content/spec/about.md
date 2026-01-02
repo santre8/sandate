@@ -15,9 +15,11 @@ I’m currently open to new opportunities as a Data Analyst, where I can apply m
 ### 👩‍💻 Technical Skills
 
 - **Languages**: Python, SQL, R  
-- **Libraries**: pandas, scikit-learn, matplotlib, seaborn, PySpark  
-- **Tools**: Power BI, Tableau, Excel, Git  
-- **Big Data**: Apache Spark, Google Cloud
+- **Data Analysis & ML**: pandas, scikit-learn, matplotlib, seaborn  
+- **Data Engineering**: Apache Spark, PySpark, Airflow (DAGs & pipelines)  
+- **Databases**: MySQL, PostgreSQL, Neo4j  
+- **BI & Visualization**: Power BI, Tableau, Excel  
+- **Tools & Workflow**: Git, Docker, Jupyter, VS Code  
 
 ---
 
