@@ -4,11 +4,13 @@ title: "About"
 
 # About Me
 
-Hi! I'm **Carmen Sandate**, a passionate and adaptable Data Analyst with a strong foundation in **optimization modeling**, **data analytics**, and **process improvement**. With an MSc in Chemical Engineering and over a decade of experience in logistics and energy systems, I bring analytical thinking and real-world business insight to every dataset.
+Hi! I'm **Carmen Sandate**, a Data Analyst with a background in **engineering, optimization, and operational analytics**, and over a decade of experience applying data-driven approaches to complex business and industrial challenges.
 
-I recently completed a **Post-Degree Diploma in Data Analytics** at Langara College in Vancouver, where I strengthened my technical skills in **Python, SQL, R, Apache Spark, and data visualization**, and applied them to end-to-end analytical and engineering projects.
+My professional experience spans the **energy, technology, and healthcare industries**. From developing optimization models for large-scale fuel supply operations at PEMEX to supporting data pipelines and data quality processes at Cortico Health Technologies, I have worked with data to improve operational efficiency, support decision-making, and solve real-world problems.
 
-I’m currently open to new opportunities as a Data Analyst, where I can apply my technical skills, analytical mindset, and industry experience to support impactful, data-driven decision-making.
+Currently, I work as a **Data Analyst at DarkVision**, where I analyze complex ultrasonic inspection data to identify and characterize pipeline features and anomalies, supporting asset integrity assessments and technical reporting.
+
+I hold an **MSc in Chemical Engineering** and a **Post-Degree Diploma in Data Analytics from Langara College** in Vancouver. My technical expertise includes **Python, SQL, machine learning, data visualization, and optimization modeling**.
 
 ---
 
