@@ -16,13 +16,13 @@ I hold an **MSc in Chemical Engineering** and a **Post-Degree Diploma in Data An
 
 ### 👩‍💻 Technical Skills
 
-- **Languages**: Python, SQL, R  
-- **Data Analysis & ML**: pandas, scikit-learn, matplotlib, seaborn  
-- **Data Engineering**: Apache Spark, PySpark, Airflow (DAGs & pipelines)  
-- **Databases**: MySQL, PostgreSQL, Neo4j  
-- **BI & Visualization**: Power BI, Tableau, Excel  
-- **Tools & Workflow**: Git, Docker, Jupyter, VS Code  
-
+- **Programming & Analytics:** Python, SQL, R
+- **Data Analysis & Machine Learning:** pandas, scikit-learn, matplotlib, seaborn, predictive modeling, statistical analysis
+- **Data Engineering:** Apache Spark, PySpark, Apache Airflow, ETL pipelines
+- **Databases & Cloud:** MySQL, PostgreSQL, Neo4j, Google BigQuery
+- **Business Intelligence & Visualization:** Power BI, Tableau, Excel
+- **Optimization & Decision Support:** Mathematical optimization, forecasting, operational analytics
+- **Development Tools:** Git, Docker, Jupyter Notebook, VS Code
 ---
 
 ### 🌍 Personal Side
@@ -35,5 +35,5 @@ I hold an **MSc in Chemical Engineering** and a **Post-Degree Diploma in Data An
 
 ### 💬 Let’s Connect
 
-I’m always open to projects, job opportunities, or coffee-fueled data chats!  
+I'm always interested in connecting with professionals, exploring collaborative projects, and exchanging ideas about analytics, technology, and business challenges. 
 Find me on [LinkedIn](https://www.linkedin.com/in/carmen-sandate-84b7919a) or check out my work on [GitHub](https://github.com/santre8).
